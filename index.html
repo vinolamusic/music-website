@@ -3,52 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Music Website</title>
+    <meta name="description" content="Official website of Vino La Music. Discover music, events, and more.">
+    <title>Vino La Music</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
     <header>
-        <h1>Vino LaMusic</h1>
+        <h1>Vino La Music</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#music">Music</a></li>
-                <li><a href="#videos">Videos</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about your music journey.</p>
-    </section>
+    <main>
+        <section id="music">
+            <h2>Music</h2>
+            <p>Explore the latest tracks and releases by Vino La Music.</p>
+            <!-- Example audio player -->
+            <audio controls>
+                <source src="audio/your-track.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
 
-    <section id="music">
-        <h2>My Music</h2>
-        <audio controls>
-            <source src="assets/audio/your-song.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
+        <section id="events">
+            <h2>Events</h2>
+            <p>Stay updated on upcoming performances and events.</p>
+            <!-- Example event details -->
+            <p>Next Event: August 25, 2024 - Mosaic Ultra Lounge</p>
+        </section>
 
-    <section id="videos">
-        <h2>My Videos</h2>
-        <video controls>
-            <source src="assets/videos/your-video.mp4" type="video/mp4">
-            Your browser does not support the video element.
-        </video>
-    </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Vino La Music is a renowned Latin producer and DJ, bringing the freshest sounds to the dance floor.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For bookings and inquiries, reach out to Vino La Music via email at <a href="mailto:info@vinolamusic.com">info@vinolamusic.com</a>.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Vino La Music. All rights reserved.</p>
     </footer>
 
-    <script src="scripts/main.js"></script>
 </body>
 </html>
